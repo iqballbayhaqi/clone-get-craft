@@ -2,6 +2,11 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      epilogue: "Epilogue, sans-serif",
+      rubik: "Rubik, sans-serif",
+      barlow: "Barlow, sans-serif"
+    },
     extend: {
       backgroundImage: {
         banner: "url('/images/banner.png')"

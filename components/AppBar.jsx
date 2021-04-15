@@ -24,9 +24,9 @@ export default function AppBar() {
           src="https://assets.website-files.com/5ee11789f9b8e4ffc2f230f5/5ee1607c3e19907b81f310cb_getcraft-logo.svg"
           alt="getcraft"
         />
-        <p className="pl-5 cursor-pointer text-white">Directory</p>
-        <p className="pl-5 cursor-pointer text-white">Jobs</p>
-        <p className="pl-5 flex items-center cursor-pointer text-white">
+        <p className="pl-5 cursor-pointer text-white font-epilogue">Directory</p>
+        <p className="pl-5 cursor-pointer text-white font-epilogue">Jobs</p>
+        <p className="pl-5 flex items-center cursor-pointer text-white font-epilogue">
           Community
           <img
             src="https://assets.website-files.com/5ee11789f9b8e4ffc2f230f5/5f16a8934334a73654a8563e_arrow%20down%20icon.png"
@@ -36,8 +36,8 @@ export default function AppBar() {
         </p>
       </div>
       <div className="flex items-center justify-end text-white">
-        <p className="pl-5 cursor-pointer text-white">Apply as creator</p>
-        <p className="pl-5 cursor-pointer flex items-center text-white">
+        <p className="pl-5 cursor-pointer text-white font-epilogue">Apply as creator</p>
+        <p className="pl-5 cursor-pointer flex items-center text-white font-epilogue">
           Login
           <img
             src="https://assets.website-files.com/5ee11789f9b8e4ffc2f230f5/5ee1667cf62b2731856fc129_login.png"
@@ -45,10 +45,10 @@ export default function AppBar() {
             alt="chevron-bottom"
           />
         </p>
-        <button className="ml-5 bg-primary text-center p-2 text-white outline-none">
+        <button className="ml-5 bg-primary text-center p-2 text-white outline-none font-epilogue">
           Register
         </button>
-        <button className="ml-5 p-2 text-white border-white border outline-none">
+        <button className="ml-5 p-2 text-white border-white border outline-none font-epilogue">
           Need Help?
         </button>
       </div>

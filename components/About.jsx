@@ -30,13 +30,13 @@ export default function About() {
 
   return (
     <div className="text-center p-20">
-      <h1 className="text-4xl pb-16 text-secondary">Why GetCraft?</h1>
+      <h1 className="text-4xl pb-16 text-secondary font-epilogue font-semibold">Why GetCraft?</h1>
       <div className="grid grid-cols-4">
         {items.map(res => (
           <div key={res.id} className="text-center">
             <img src={res.logo} alt={res.title} className="m-auto w-20 h-20 pb-5" />
-            <p className="text-lg font-bold text-gray">{res.title}</p>
-            <p className="text-sm pl-5 pr-5 text-gray">{res.description}</p>
+            <p className="text-lg font-bold text-gray font-epilogue font-semibold">{res.title}</p>
+            <p className="text-sm pl-5 pr-5 text-gray font-rubik">{res.description}</p>
           </div>
         ))}
 

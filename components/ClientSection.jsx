@@ -35,7 +35,7 @@ export default function ClientSection() {
 
   return (
     <div className="grid grid-cols-7 gap-4 p-5 items-center w-full bg-secondary">
-      <p className="text-right text-xs text-white ml-10">
+      <p className="text-right text-xs text-white ml-7 font-epilogue">
         Trusted by 1,500+ brands and agencies
       </p>
       {clients.map(res => {

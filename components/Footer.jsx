@@ -149,9 +149,9 @@ export default function Footer() {
           .slice(0, 3)
           .map((menu, index) => (
             <div key={index}>
-              <p className="text-white text-left text-base pb-3">{menu}</p>
-              {menus[menu].map((res) => (
-                <p className="text-grey text-left cursor-pointer">
+              <p className="text-white text-left text-base pb-3 font-epilogue">{menu}</p>
+              {menus[menu].map((res, indexMenu) => (
+                <p key={indexMenu} className="text-grey text-left cursor-pointer font-rubik">
                   {res.title}
                 </p>
               ))}
@@ -162,9 +162,9 @@ export default function Footer() {
             .slice(3)
             .map((menu, index) => (
               <div key={index} style={{ marginTop: index !== 0 && 20 }}>
-                <p className="text-white text-left text-base pb-3">{menu}</p>
-                {menus[menu].map((res) => (
-                  <p className="text-grey text-left cursor-pointer">
+                <p className="text-white text-left text-base pb-3 font-epilogue">{menu}</p>
+                {menus[menu].map((res, indexMenu) => (
+                  <p key={indexMenu} className="text-grey text-left cursor-pointer font-rubik">
                     {res.title}
                   </p>
                 ))}
@@ -193,13 +193,13 @@ export default function Footer() {
             />
           </div>
           <div>
-            <p className="text-white text-left text-base pb-3">Support</p>
-            <p className="text-grey text-left cursor-pointer">FAQ</p>
-            <p className="text-grey text-left cursor-pointer">
+            <p className="text-white text-left text-base pb-3 font-epilogue">Support</p>
+            <p className="text-grey text-left cursor-pointer font-rubik">FAQ</p>
+            <p className="text-grey text-left cursor-pointer font-rubik">
               Terms and conditions
             </p>
-            <p className="text-grey text-left cursor-pointer">Need help?</p>
-            <p className="text-grey text-left cursor-pointer">
+            <p className="text-grey text-left cursor-pointer font-rubik">Need help?</p>
+            <p className="text-grey text-left cursor-pointer font-rubik">
               support@getcraft.com
             </p>
           </div>
@@ -211,7 +211,7 @@ export default function Footer() {
             src="https://assets.website-files.com/5f17b8c284f5ec1135c789d9/5f2b876e9f1e328695892abd_GetCraft%20logo%20white.png"
             alt="get craft logo"
           />
-          <p className="text-white text-left text-xs pt-2">
+          <p className="text-white text-left text-xs pt-2 font-epilogue">
             Copyright © 2021 GetCRAFT
           </p>
         </div>

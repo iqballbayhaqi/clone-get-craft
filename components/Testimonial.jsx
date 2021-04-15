@@ -69,7 +69,7 @@ export default function Testimonial() {
 
   return (
     <div className="text-center p-20 bg-secondary">
-      <h1 className="text-4xl pb-5 text-white">Testimonials</h1>
+      <h1 className="text-4xl pb-10 text-white font-epilogue font-semibold">Testimonials</h1>
       <Slider {...slider_settings}>
         <div>
           <div className="grid grid-cols-3">
@@ -80,11 +80,11 @@ export default function Testimonial() {
                   alt={res.name}
                   className="w-20 h-20 rounded-full border border-white m-auto"
                 />
-                <p className="text-white text-md font-semibold pt-3">
+                <p className="text-white text-md font-semibold pt-3 font-epilogue">
                   {res.name}
                 </p>
-                <p className="text-gray">{res.title}</p>
-                <p className="text-white text-xs w-4/5 m-auto pt-2">
+                <p className="text-gray font-epilogue">{res.title}</p>
+                <p className="text-white text-xs w-4/5 m-auto pt-2 font-rubik">
                   {res.testi}
                 </p>
               </div>
@@ -100,11 +100,11 @@ export default function Testimonial() {
                   alt={res.name}
                   className="w-20 h-20 rounded-full border border-white m-auto"
                 />
-                <p className="text-white text-md font-semibold pt-3">
+                <p className="text-white text-md font-semibold pt-3 font-epilogue">
                   {res.name}
                 </p>
-                <p className="text-gray text-sm">{res.title}</p>
-                <p className="text-white text-xs w-4/5 m-auto pt-2">
+                <p className="text-gray text-sm font-epilogue">{res.title}</p>
+                <p className="text-white text-xs w-4/5 m-auto pt-2 font-rubik">
                   {res.testi}
                 </p>
               </div>

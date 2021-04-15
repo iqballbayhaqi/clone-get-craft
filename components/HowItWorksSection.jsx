@@ -34,16 +34,16 @@ export default function HowItWorks() {
 
   return (
     <div className="text-center p-20">
-      <h1 className="text-4xl pb-16 text-secondary">How It Works</h1>
+      <h1 className="text-4xl pb-16 text-secondary font-epilogue font-semibold">How It Works</h1>
       <div className="grid grid-cols-3">
         {items.map((res) => (
           <div key={res.id} className="text-center">
             <img src={res.logo} alt={res.title} className="m-auto w-4/5 pb-5" />
-            <p className="text-2xl font-bold text-gray">{res.title}</p>
-            <p className="text-sm pl-5 pr-5 text-gray w-4/5 m-auto">
+            <p className="text-2xl font-bold text-gray font-epilogue">{res.title}</p>
+            <p className="text-sm pl-5 pr-5 pt-3 text-gray w-4/5 m-auto font-rubik">
               {res.description}
             </p>
-            <p className="text-md pl-5 pr-5 pt-2 text-primary font-semibold">
+            <p className="text-md pl-5 pr-5 pt-2 text-primary font-epilogue font-semibold">
               <a href={res.link} target="_blank">
                 {`${res.action} >`}
               </a>
